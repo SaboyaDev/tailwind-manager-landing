@@ -1,0 +1,16 @@
+{
+	"name": "tailwind-manager-landing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tailwindcss -i ./main.css -o ./style.css",
+		"watch": "npx tailwindcss -i ./main.css -o ./style.css --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.2.1"
+	}
+}
