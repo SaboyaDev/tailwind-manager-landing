@@ -10,6 +10,12 @@ module.exports = {
 		// 	xl: '1280px',
 		// 	'2xl': '1440px',
 		// },
+		// screens: {
+		// 	sm: '480px',
+		// 	md: '768px',
+		// 	lg: '976px',
+		// 	xl: '1440px',
+		// },
 		extend: {
 			colors: {
 				brightRed: 'hsl(12, 88%, 59%)',

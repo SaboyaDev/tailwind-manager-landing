@@ -17,42 +17,77 @@
   <title>Manage Landing Page</title>
 </head>
 
-<body class="font-vietmanPro body">
-  <!-- Navbar -->
-  <nav class="relative container mx-auto p-6">
-    <!-- Flex Container -->
-    <div class="flex justify-between items-center">
-      <!-- Logo -->
-      <div class="pt-2">
-        <img src="./img/logo.svg" alt="">
+<body class="font-vietmanPro">
+  <div class="container mx-auto px-6">
+    <!-- Navbar -->
+    <nav class="py-6">
+      <!-- <nav class="relative container mx-auto p-6"> -->
+      <!-- Flex Container -->
+      <div class="flex justify-between items-center">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="./img/logo.svg" alt="">
+        </div>
+        <!-- Menu -->
+        <ul class="hidden md:flex space-x-8 items-center">
+          <li>
+            <a classs="inline-block" href="#">Pricing</a>
+          </li>
+          <li>
+            <a classs="inline-block" href="#">Product</a>
+          </li>
+          <li>
+            <a class="inline-block" href="#">AboutUs</a>
+          </li>
+          <li>
+            <a class="inline-block" href="#">Careers</a>
+          </li>
+          <li>
+            <a class="inline-block" href="#">Community</a>
+          </li>
+        </ul>
+        <!-- Button -->
+        <a
+          class="hidden lg:block bg-brightRed text-light rounded-full py-3 px-6">
+          Get Started
+        </a>
+        <!-- Mobile Hamburger Button -->
+        <div class="md:hidden w-10 h-10">
+          <img class="w-full h-full" src="./svg/burger-menu.svg" alt="">
+        </div>
       </div>
-      <!-- Menu -->
-      <ul class="hidden md:flex space-x-8 items-center">
-        <li>
-          <a classs="inline-block" href="#">Pricing</a>
-        </li>
-        <li>
-          <a classs="inline-block" href="#">Product</a>
-        </li>
-        <li>
-          <a class="inline-block" href="#">AboutUs</a>
-        </li>
-        <li>
-          <a class="inline-block" href="#">Careers</a>
-        </li>
-        <li>
-          <a class="inline-block" href="#">Community</a>
-        </li>
-      </ul>
-      <!-- Button -->
-      <a class="hidden lg:block bg-brightRed text-light rounded-full py-3 px-6">
-        Get Started
-      </a>
-      <div class="md:hidden w-12 h-12">
-        <img class="w-full h-full" src="./svg/burger-menu.svg" alt="">
+    </nav>
+
+    <!-- Hero -->
+    <div class="container my-16 flex flex-col md:flex-row-reverse">
+      <!-- Hero Image -->
+      <div class="md:w-1/2 md:mt-2">
+        <img src="./img/illustration-intro.svg" alt="">
       </div>
-    </div>
-  </nav>
+
+      <!-- Hero-Text -->
+      <div class="text-center md:text-left md:w-1/2 md:pr-6 lg:pr-20 xl:pr-48">
+        <div class="py-4">
+          <h2 class="font-semibold md:leading-snug text-3xl lg:text-5xl">
+            Bring everyone together to build better products.
+          </h2>
+        </div>
+        <div class="py-4">
+          <p class="text-darkGrayishBlue text-sm">Manage makes it simple for
+            software
+            teams to plan day-to-day tasks
+            while keeping
+            the larger team goals in view.
+          </p>
+        </div>
+        <div class="py-7"><a
+            class="bg-brightRed text-light rounded-full py-3 px-6">
+            Get Started
+          </a></div>
+      </div>
+    </div> <!-- End of Hero  -->
+
+  </div>
 </body>
 
 </html>
